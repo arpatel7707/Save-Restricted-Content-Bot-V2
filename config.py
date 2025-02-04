@@ -3,9 +3,9 @@
 
 from os import getenv
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+API_ID = int(getenv("API_ID", "27834222"))
+API_HASH = getenv("API_HASH", "6dacb2676a057987b0f995649bc1e848")
+BOT_TOKEN = getenv("BOT_TOKEN", "7715195681:AAHSP7_cxPjAaGWJXB4XkqIU8FFyG9yf5bA")
 OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
 MONGO_DB = getenv("MONGO_DB", "")
 LOG_GROUP = getenv("LOG_GROUP", "")
